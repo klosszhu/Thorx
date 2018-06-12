@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // 有关程序集的一般信息由以下
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("Thorx.Mongo")]
+[assembly: AssemblyTitle("Thorx.MongoResponsitory")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Thorx.Mongo")]
+[assembly: AssemblyProduct("Thorx.MongoResponsitory")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 如果此项目向 COM 公开，则下列 GUID 用于类型库的 ID
-[assembly: Guid("62ae7b59-f222-4b7b-a420-52fed883fdd5")]
+[assembly: Guid("fd2175fb-aa81-4d7f-acff-24b34001a2ab")]
 
 // 程序集的版本信息由下列四个值组成: 
 //

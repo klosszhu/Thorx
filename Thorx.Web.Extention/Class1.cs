@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.Mvc;
+using System.Web.Routing;
 
-namespace Thorx.Mongo
+namespace Thorx.Web.Extention
 {
-    public class Class1
+    public class MongoController<T> : Controller
     {
+
     }
 }
