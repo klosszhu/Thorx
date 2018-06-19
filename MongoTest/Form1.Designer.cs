@@ -37,14 +37,14 @@
             this.button7 = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(17, 0);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Location = new System.Drawing.Point(13, 0);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 29);
+            this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
             this.button1.Text = "插入";
             this.button1.UseVisualStyleBackColor = true;
@@ -52,10 +52,9 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(147, 0);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Location = new System.Drawing.Point(110, 0);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 29);
+            this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 1;
             this.button2.Text = "查找";
             this.button2.UseVisualStyleBackColor = true;
@@ -63,10 +62,9 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(17, 51);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Location = new System.Drawing.Point(13, 41);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(100, 29);
+            this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 2;
             this.button3.Text = "插入复合类型";
             this.button3.UseVisualStyleBackColor = true;
@@ -74,10 +72,9 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(147, 51);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button4.Location = new System.Drawing.Point(110, 41);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(100, 29);
+            this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 3;
             this.button4.Text = "查找复合类";
             this.button4.UseVisualStyleBackColor = true;
@@ -85,10 +82,9 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(281, 50);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button5.Location = new System.Drawing.Point(211, 40);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(100, 29);
+            this.button5.Size = new System.Drawing.Size(75, 23);
             this.button5.TabIndex = 4;
             this.button5.Text = "更新";
             this.button5.UseVisualStyleBackColor = true;
@@ -96,10 +92,9 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(413, 49);
-            this.button6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button6.Location = new System.Drawing.Point(310, 39);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(100, 29);
+            this.button6.Size = new System.Drawing.Size(75, 23);
             this.button6.TabIndex = 5;
             this.button6.Text = "批量插入";
             this.button6.UseVisualStyleBackColor = true;
@@ -107,9 +102,10 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(17, 163);
+            this.button7.Location = new System.Drawing.Point(13, 130);
+            this.button7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
+            this.button7.Size = new System.Drawing.Size(56, 18);
             this.button7.TabIndex = 6;
             this.button7.Text = "批量插入";
             this.button7.UseVisualStyleBackColor = true;
@@ -117,27 +113,40 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(17, 203);
+            this.richTextBox1.Location = new System.Drawing.Point(13, 162);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(1014, 96);
+            this.richTextBox1.Size = new System.Drawing.Size(762, 78);
             this.richTextBox1.TabIndex = 7;
             this.richTextBox1.Text = "";
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(147, 163);
+            this.button8.Location = new System.Drawing.Point(110, 130);
+            this.button8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 23);
+            this.button8.Size = new System.Drawing.Size(56, 18);
             this.button8.TabIndex = 8;
             this.button8.Text = "查找";
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(13, 246);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(762, 23);
+            this.button9.TabIndex = 9;
+            this.button9.Text = "JSON转匿名对象";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 562);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.button7);
@@ -147,7 +156,6 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -165,6 +173,7 @@
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
     }
 }
 
